@@ -1,0 +1,38 @@
+.sidebar-l.sidebar-left.sidebar-open {
+      -webkit-transform: translate(0,0);
+      -moz-transform: translate(0,0);
+      -ms-transform: translate(0,0);
+      -o-transform: translate(0,0);
+      transform: translate(0,0);
+    }
+    .sidebar-l.sidebar-left {
+      -webkit-transform: translate(-100%,0);
+      -moz-transform: translate(-100%,0);
+      -ms-transform: translate(-100%,0);
+      -o-transform: translate(-100%,0);
+      transform: translate(-100%,0);
+    }
+    .sidebar-animate {
+      -webkit-transition: -webkit-transform 300ms ease;
+      -moz-transition: -moz-transform 300ms ease;
+      -o-transition: transform 300ms ease;
+      transition: transform 300ms ease;
+    }
+    .sidebar-left {
+      left: 0;
+    }
+    
+    .sidebar-left ul { margin-top: 142px; }
+    .sidebar-left li { padding: 0px 0px 0px 35px; }
+    .sidebar-left li a { color: #fff; }
+    .sidebar-left li::first-child {}
+    .sidebar-lf { background-color: #224D4A!important; position: fixed; padding-top:100px; left: 0px; top: 0px; width: 50px; z-index: 100; height: 100%; }
+    .sidebar-lf i { color: #fff; padding: 12px 0px 15px 15px; }
+    .sidebar-l {
+      position: fixed;
+      top: 0px;
+      width: 200px;
+      height: 100%;
+      background-color: #224d4a;
+      z-index: -1;
+    }

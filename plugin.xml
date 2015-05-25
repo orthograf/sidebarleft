@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Sidebar Left</lang>
+	</name>
+	<author>
+		<lang name="default">Alto CMS Team</lang>
+		<lang name="russian">Alto CMS Team</lang>
+	</author>
+	<homepage>http://altocms.ru</homepage>
+	<version>1.0.x</version>
+	<dirname>sidebarleft</dirname>
+    <requires>
+        <alto>
+             <version>1.0.x</version>
+        </alto>
+		<system>
+            <php>5.3.0</php>
+        </system>
+    </requires>
+	<description>
+		<lang name="default">Sidebar Left</lang>
+	</description>
+</plugin>
