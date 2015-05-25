@@ -36,10 +36,11 @@
 .sidebar-lf li { padding: 0px 0px 0px 0px; }
 .sidebar-lf li a:hover, 
 .sidebar-lf li a:focus { background-color: #224D4A; }
-.sidebar-lf li:first-child {   font-size: 21px; padding: 0px 0px 15px 0px; }
-.sidebar-lf li a {   padding: 0px 7px; }
+.sidebar-lf li:first-child { cursor: pointer; font-size: 21px; padding: 0px 0px 15px 0px; }
+.sidebar-lf li a { padding: 0px 7px; }
 .sidebar-lf i { color: #fff; padding: 12px 0px 15px 8px; }
 .sidebar-lf img { padding: 0px; margin: 0px 0px 15px; }
+
 .sidebar-l {
   position: fixed;
   top: 0px;
