@@ -15,7 +15,7 @@
         
         <div class="sidebar-l sidebar-left sidebar-animate">
             <ul class="nav">
-                <li><a href="{E::User()->getProfileUrl()}">{if E::User()->getProfileName()}{E::User()->getProfileName()}{else}{if E::User()->getDisplayName()}{/if}</a></li>
+                <li><a href="{E::User()->getProfileUrl()}">{if E::User()->getProfileName()}{E::User()->getProfileName()}{else}{E::User()->getDisplayName()}{/if}</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#modal-write">{$aLang.topic_topic_create}</a></li>
                 <li><a id="new_messages" href="{router page='talk'}">{$aLang.talk_menu_inbox}<span class="new-messages"></span></a></li>
                 <li><a href="{E::User()->getProfileUrl()}created/topics/">{$aLang.user_menu_publication}</a></li>
