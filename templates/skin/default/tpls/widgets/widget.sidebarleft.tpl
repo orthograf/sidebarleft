@@ -2,7 +2,7 @@
     <div class="sidebarleft">
         <div class="sidebar-lf">
             <ul class="nav">
-                <li><a href="#" data-toggle="sidebar-l" data-target=".sidebar-left"><i class="fa fa-reorder"></i></a><li>
+                <li><a data-toggle="sidebar-l" data-target=".sidebar-left"><i class="fa fa-reorder"></i></a><li>
                 <li><a href="{E::User()->getProfileUrl()}"><img src="{E::User()->getAvatarUrl(32)}"/></a><li>
                 <li><a href="#" data-toggle="modal" data-target="#modal-write" class="hvr-leftline-reveal"><i class="fa fa-pencil"></i></a><li>
                 <li><a id="new_messages" href="{router page='talk'}" class="hvr-leftline-reveal"><i class="fa fa-envelope-o"></i><li>
