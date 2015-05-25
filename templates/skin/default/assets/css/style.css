@@ -22,12 +22,13 @@
       left: 0;
     }
     
-    .sidebar-left ul { margin-top: 142px; }
+    .sidebar-left ul { margin-top: 146px; }
     .sidebar-left li { padding: 0px 0px 0px 35px; }
     .sidebar-left li a { color: #fff; }
     .sidebar-left li::first-child {}
     .sidebar-lf { background-color: #224D4A!important; position: fixed; padding-top:100px; left: 0px; top: 0px; width: 50px; z-index: 100; height: 100%; }
     .sidebar-lf i { color: #fff; padding: 12px 0px 15px 15px; }
+	.sidebar-lf img { padding: 7px; }
     .sidebar-l {
       position: fixed;
       top: 0px;
